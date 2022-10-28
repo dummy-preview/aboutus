@@ -600,24 +600,28 @@ li.menu-item.current-menu-item {
     position: absolute;
     left: 0;
     top: 10%;
+    z-index: -1;
 }
 
 .map__obj2 {
     position: absolute;
     right: 0;
     top: 10%;
+    z-index: -1;
 }
 
 .map__obj3 {
     position: absolute;
     left: 0;
     top: 50%;
+    z-index: -1;
 }
 
 .map__obj4 {
     position: absolute;
     right: 0;
     top: 50%;
+    z-index: -1;
 }
 
 .map__obj1 img,
@@ -696,7 +700,7 @@ li.menu-item.current-menu-item {
 .map__box {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: ; */
+    justify-content: center;
 }
 
 .box__wrap {
@@ -2251,8 +2255,62 @@ footer {
     .tool .tooltip {
         font-size: 14px;
         line-height: 21px;
-        left: -35px;
-        width: 164px;
+        left: -29px;
+        width: 159px;
+    }
+    .nav-menu .menu-item a {
+        font-size: 11px;
+        line-height: 21px;
+        padding: 5px 0px;
+    }
+    .localcorn__item {
+        width: 450px;
+    }
+    .localcorn__item1 {
+        width: 375px;
+        margin-left: 20px;
+    }
+    .home {
+        height: 1045px;
+    }
+    .localcorn__item1 iframe {
+        height: 195px;
+    }
+    .map__logo img {
+        width: 325px;
+        padding-bottom: 20px;
+    }
+    .map__obj1,
+    .map__obj2 {
+        top: 708px;
+    }
+    .jurnalis__card--top {
+        height: 395px;
+        padding: 20px;
+    }
+    .jurnalis__card {
+        width: 245px;
+    }
+    .card__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .meet__board {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .status2__text {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .box__logo {
+        width: 112px;
+    }
+    .box__text {
+        width: 121px;
     }
 }
 
@@ -2314,14 +2372,14 @@ footer {
         font-size: 14px
     }
     .box {
-        width: 225px;
-        height: 240px;
+        width: 285px;
+        height: 280px;
     }
     .box__logo {
         width: 110px;
     }
     .box__text {
-        width: 90px;
+        width: 140px;
     }
     .tool .tooltip {
         font-size: 13px;
